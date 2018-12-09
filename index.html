@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"  >
+      <link rel="stylesheet" href="./css/index.css" >
+     </head>
+     <body>
       <title>My Webpage</title>
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
-    </head>
-    <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- nav -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -33,7 +37,7 @@
 
       <div class="row">
           <div class="col-12">
-            <h1>Thank you for CS50 Web</h1>
+            <h1 class="head-line" >Thank you for CS50 Web</h1>
             <p>
               I'm really excited to take this course because I feel like I am studying abroad now!
               <br/>
@@ -48,16 +52,13 @@
         </div>
       </div><!-- row -->
       <div class="row">
-        <div class="col-12">
-            <h1>About me</h1>
+        <div class="col-sm">
+            <h1 class="head-line" >About me</h1>
+            <figure class="figure">
+              <img src="./img/hiroCwithGuitar.png"  class="img-fluid"/>
+            </figure>
+           <h2>Hello World!</h2>
         </div>
-      </div>
-      <div class="row">
-            <div class="col-sm">
-              <figure class="figure">
-                <!-- <img src="./img/hiroCwithGuitar.png" /> -->
-              </figure>
-            </div>
     </div>
     <div class="row ">
           <div class="col-sm-3">
@@ -98,7 +99,7 @@
     <div class="row">
       <div class="col-sm">
         <div class="jumbotron">
-            <h1 class="display-4">MeetUp</h1>
+            <h1 class="display-4">Let's meet up!</h1>
             <p class="lead">I'm fluent in English, let's have a chat at Cafe!</p>
             <hr class="my-4">
             <p>You can see the event schedule. Please click the jump button below!</p>

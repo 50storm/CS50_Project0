@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" >
+      <link rel="stylesheet" type="text/css" href="./css/interest.css" >
       <title>My Webpage</title>
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
     </head>
-    <style>
-    table, td, th {
-        border: 2px #000000 solid;
-      }
-      /* #card-img-landscape0{
-        width:100%;
-        height:auto;
-      } */
-
-    </style>
     <body>
-      <div class="container">
+      <div class="container-fluid">
       <!-- nav -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -43,22 +37,49 @@
         <div class="row">
           <div class="col-sm">
             <h1>Interest</h1>
-            <ul>
-                <li>
-                  Traveling
-                </li>
-                <li>
-                  <a href="#food-gallery">
-                  Finding out delicious food!
-                  </a>
-                </li>
-                <li>
-                  Brain Science
-                </li>
-            </ul>
+            <div class="card" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item" >
+                    <a href="#favorite-place">
+                      Traveling
+                    </a>
+                  </li>
+                  <li class="list-group-item" >
+                    <a href="#food-gallery">
+                      Finding out delicious food!
+                    </a>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
-
+        <div class="row">
+            <div class="col-sm">
+              <h1 id="favorite-place">My favorite place</h1>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" style="width: 19rem;">
+              <img class="card-img-top" src="./img/landscape0.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Seaside Momochi</h5>
+                <p class="card-text">Seaside Momochiis Fukuoka's modern waterfront located along Hakata Bay. <br/></p>
+                <a href="https://www.japan-guide.com/e/e4801.html" class="btn btn-primary">Japanese-guide.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" style="width: 19rem;">
+              <img class="card-img-top" src="./img/hakata0.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hakata Station</h5>
+                <p class="card-text">Operated by JR Kyushu, Hakata Station has grown in importance as a rail hub since 2011.</p>
+                <a href="https://www.hakatastation.com/hakata-station-map-finding-your-way/" class="btn btn-primary">Japanese-guide.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm">
             <h1 id="food-gallery">My favorite food</h1>
@@ -116,34 +137,6 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-            <div class="col-sm">
-              <h1>My favorite place</h1>
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="./img/landscape0.JPG" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Seaside Momochi</h5>
-                <p class="card-text">Seaside Momochiis Fukuoka's modern waterfront located along Hakata Bay. </p>
-                <a href="https://www.japan-guide.com/e/e4801.html" class="btn btn-primary">Japanese-guide.com</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="./img/landscape0.JPG" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">シーサイドももち</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
             </div>
           </div>
         </div>
