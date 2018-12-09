@@ -1,7 +1,9 @@
-.head-line {
-  background-color: #edcdcd;
+h1.head-line {
+  background-color: #2C7CFF;
+  /* relaxing color*/
 }
 
+/* */
 p a:hover {
   background-color: #EDCDC2;
 }
