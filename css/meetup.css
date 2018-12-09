@@ -1,0 +1,17 @@
+/*  Multiple Element Selector */
+table, td, th {
+  border: 2px #000000 solid;
+}
+
+/* class selector */
+.mark-under{
+  text-decoration: underline;
+  color:red;
+
+}
+
+/* id selector*/
+#table-header{
+  font-size:1.5em;
+  font-style:italic;
+}
