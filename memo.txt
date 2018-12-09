@@ -20,6 +20,9 @@ REAEME.mdに短いプロジェクトの説明をそれぞれのHTMLファイル�
 a b Descendant Selectpr
 a > b Chile Selector
 a + b Adjacent Sibiling Selector
+former_element + target_element {
+ style properties
+}
 [ a=b ] Attribute Selector
 a:b   Pseudoclass Selector
 
