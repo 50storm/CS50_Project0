@@ -1,0 +1,8 @@
+/*  Multiple Element Selector */
+table, td, th {
+  border: 2px #000000 solid;
+}
+
+ul > li{
+  font-style: italic; 
+}
