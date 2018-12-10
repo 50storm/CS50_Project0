@@ -18,10 +18,10 @@ h2{
   margin-top:5px;
 
 }
-/* smartPhone */
-/* 568*/
-@media (min-width: 700pxpx) {
 
-  h1::after{content:"Thank you for your conderation!"}
-
+@media (max-width: 575.98px) {
+	.small-device {
+		// cssプロパティをここに記述
+    background-color: red;
+	}
 }
