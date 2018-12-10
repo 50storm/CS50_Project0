@@ -15,10 +15,20 @@ CSSにSCSSをすくなくとも１つ使う				テーブル
 すくなくとも１つのSCSSの継承をつかう
 REAEME.mdに短いプロジェクトの説明をそれぞれのHTMLファイルについて書く
 
+---------------------
+Class Selector
+ID Selector
+Multiple Element Selector
+Child Selector
+
+----------------------
+
+
+
 
 使った：a,b Multiple Element Selector
 a b Descendant Selectpr
-a > b Chile Selector
+a > b Child Selector
 a + b Adjacent Sibiling Selector
 former_element + target_element {
  style properties
