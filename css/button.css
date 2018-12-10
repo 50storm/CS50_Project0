@@ -1,0 +1,14 @@
+.buttonGuide, .buttonJump {
+  font-size: 1.1em;
+  margin: 10px, 10px;
+}
+
+.buttonJump {
+  text-shadow: 5px 5px 4px black;
+}
+
+.buttonGuide {
+  text-shadow: 4px 4px 3px gray;
+}
+
+/*# sourceMappingURL=button.css.map */
