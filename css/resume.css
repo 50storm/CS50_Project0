@@ -4,6 +4,24 @@ table, td, th {
 }
 
 /* Child Selector*/
-ul.contact > li{
+h1, ul.contact > li{
   font-style: italic;
+}
+
+
+h1, h2{
+  margin-bottom: 0;
+  text-decoration: underline;
+
+}
+h2{
+  margin-top:5px;
+
+}
+/* smartPhone */
+/* 568*/
+@media (min-width: 700pxpx) {
+
+  h1::after{content:"Thank you for your conderation!"}
+
 }
