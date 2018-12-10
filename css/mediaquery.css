@@ -1,0 +1,8 @@
+@media only screen and (max-device-width:320px)
+and (orientation:portrait)
+	{
+ 		h1 , h2{
+    		    font-size:1.2em;
+    }
+ 	}
+
