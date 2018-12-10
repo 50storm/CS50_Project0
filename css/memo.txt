@@ -20,7 +20,7 @@ Class Selector
 ID Selector
 Multiple Element Selector
 Child Selector
-
+Descendant Selector
 ----------------------
 
 

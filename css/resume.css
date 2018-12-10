@@ -3,6 +3,7 @@ table, td, th {
   border: 2px #000000 solid;
 }
 
+/* Child Selector*/
 ul > li{
-  font-style: italic; 
+  font-style: italic;
 }

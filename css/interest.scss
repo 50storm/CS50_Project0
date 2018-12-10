@@ -1,9 +1,8 @@
 //$h1-text-color:#000080;
-$h1-text-color:red!important;
+$h1-text-color:blue;
 div{
-
   h1{
-    font-color:$h1-text-color;
+    color:$h1-text-color;
     background-color:aqua;
   }
 }

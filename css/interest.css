@@ -1,10 +1,6 @@
 div h1 {
-  font-color: red !important;
+  color: blue;
   background-color: aqua;
-}
-
-table, td, th {
-  border: 2px #000000 solid;
 }
 
 /*# sourceMappingURL=interest.css.map */
