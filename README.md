@@ -1,12 +1,16 @@
 # Project 0
-Web Programming with Python and JavaScript
+Web Programming with Python and JavaScript  
+
+# Name  
+Hiroshi Igarashi
 
 # Index.html  
 This is a homepage to introduce myself and has a link to meet-up events.  
-Since I love drinking coffee and going to karaoke, I placed the link to connect to the schedule page.  
+Since I love having a chat with people at cafe, I placed the link to connect to the meet-up event page.  
 
 # meeup.html  
 This is a meet-up event page that visitors who are interested in can know the schedule.
+They can contact me through Facebook, Twitter, or linkedin.
 
 # interest.html
 This page show my interest.   
