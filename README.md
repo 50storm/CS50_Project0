@@ -1,8 +1,8 @@
-# Project 0
-Web Programming with Python and JavaScript  
+# Project 0  
+[Web Programming with Python and JavaScript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)
 
 # Name  
-Hiroshi Igarashi
+[Hiroshi Igarashi](https://www.facebook.com/hiroshibook)
 
 # Index.html  
 This is a homepage to introduce myself and has a link to meet-up events.  
