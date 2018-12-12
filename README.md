@@ -14,7 +14,7 @@ They can contact me through Facebook, Twitter, or linkedin.
 
 # interest.html
 This page show my interest.   
-My hobbies are travelling and trying local delicous food. I made their carousels by taking advantage of Bootstrap's carousels
+My hobbies are travelling and eating delicious food. I made their carousels by taking advantage of Bootstrap's carousels
 
 # resume.html
 This page is to let visitors know about my background.
